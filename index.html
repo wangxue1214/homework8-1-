@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type='text/css' href="./style.css">
+</head>
+<body>
+    <div class='navigation-bar'>
+        <div class='icon'><img src="./images/img3.jpg"></div>
+        <div class='navigation1'>
+            <ul>
+                <li><a href="">首页</a></li>
+                <li><a href="">榜单</a></li>
+                <li><a href="">歌手</a></li>
+                <li><a href="">下载酷我客户端</a></li>
+            </ul>
+        </div>
+        <div class='navigation2'>
+            <ul>
+                <li><a href="">美女秀</a></li>
+                <li><a href="">酷我耳机</a></li>
+                <li><a href="">VIP会员</a></li>
+                <li><a href="">i听</a></li>
+            </ul>
+        </div>
+        <div class='login'>
+            <ul>
+                <li><a href="#">更多服务</a></li>
+                <li><a href="#">登录</a></li>
+                <li><a href="#">∧</a></li>
+            </ul>
+        </div>
+        <div class='search'>
+            <input type="search" placeholder="找到好音乐">
+        </div>
+    </div>
+    <div class='play-page'>
+        <div class='play-page-left'>
+            <h3>喜羊羊</h3>
+            <div class='introduce'>
+                专辑：<p>儿歌大全</p>&nbsp歌手：<p>华语群星</p>&nbsp<a href="#">分享</a>&nbsp<a href="#">评论</a>
+                <p>上传时间：2015-10-02&nbsp歌曲来源：网络</p>
+            </div>
+            <div class='song-words'>
+                <p>在所有天气&nbsp拥有叫人&nbsp大笑的力量</p>
+                <p>虽然我只是羊</p>
+                <p>虽然我只是羊</p>
+                <p>喜羊羊&nbsp美羊羊&nbsp懒洋洋&nbsp沸羊羊</p>
+                <p>慢羊羊&nbsp软绵绵&nbsp红太狼&nbsp灰太狼</p>
+            </div>
+        </div>
+        <div class='play_page_right'>
+            <div id='play_image'></div>
+            <div class='play_progress'>
+                <audio autoplay='false' id='mymusic'>
+                    <source src='./images/8.mp3' type='audio/mp3'>
+                </audio>
+                <div id='play_btn'></div>
+                <div id='play_progressBar'>
+                    <div id="prograssBar"></div>
+                    <a href="#" id="schedule_btn"></a>
+                </div>
+                <div id='play_time'>00:00</div>
+                <div id='voice'></div>
+            </div>
+            <div class='download'>
+                <div class='download_icon'></div>
+                免费下载这首歌
+            </div>
+            <div class='audience'>
+                <div class='photo'></div>
+                <div class='bubble'>郭子仪——H5班
+                    <div class='bubble_bottom'>
+                        <div class='hearing'>&nbsp喜羊羊与灰太狼</div>
+                        <a href="#">去现场&nbsp></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='comment'>
+        <p id='commentsum'></p>
+        <div class='publish_comment'>
+            <div id='photo'></div>
+            <div>
+                <textarea name="comment" id="comment" cols="75" rows="5" placeholder='分享你的音乐见解'></textarea>
+                <div class='publish_bottom'>
+                    <div id='expression'></div>
+                    <div id='wordsnum'>已输入0个字</div>
+                    <button id='submit'>评论</button>
+                </div>
+            </div>
+        </div>
+        <p>精彩评论</p>
+        <div id='look_comment'>
+            
+        </div>
+        <div id='paging'>
+            <div id='left_arrow'><</div>
+            <div id='page1'>1</div>
+            <div id='right_arrow'>></div>
+        </div>
+    </div>
+</body>
+<script src='./myscript.js'></script>
+<script src='./moment.js'></script>
+</html>
